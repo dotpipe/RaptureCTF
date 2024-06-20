@@ -1,0 +1,33 @@
+{
+    "name": "chess-capture-the-flag",
+    "version": "1.0.0",
+    "main": "server.mjs",
+    "scripts": {
+        "start": "node server.mjs",
+        "dev": "webpack serve --config webpack.config.mjs"
+    },
+    "type": "module",
+    "dependencies": {
+        "express": "^4.19.2",
+        "http": "0.0.1-security",
+        "mongoose": "^5.12.13",
+        "path": "^0.12.7",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "socket.io": "^4.7.5",
+        "socket.io-client": "^4.7.5"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.7",
+        "@babel/preset-env": "^7.24.7",
+        "@babel/preset-react": "^7.24.7",
+        "babel-loader": "^8.3.0",
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.0",
+        "mongodb": "^6.7.0",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.92.1",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^3.11.3"
+    }
+}
